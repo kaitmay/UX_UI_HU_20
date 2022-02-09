@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+}
+
+  /* navigation CSS */
+    header {
+      background-color: white;
+      padding: 15px;
+    }
+
+    header ul {
+      float: right;
+      color: #5A697E;
+      font-family: Red Hat Display;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 25px;
+      line-height: 33px;
+      }
+
+      /* unvisited link */
+    a:link {
+      color: #5A697E;
+      font-family: Red Hat Display;
+      text-decoration: none;
+    }
+
+    /* visited link */
+    a:visited {
+      color: #5A697E;
+      font-family: Red Hat Display;
+      text-decoration: none;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: #5A697E;
+      font-family: Red Hat Display;
+      text-decoration: underline;
+    }
+
+    /* selected link */
+    a:active {
+      color: #5A697E;
+      font-family: Red Hat Display;
+      text-decoration: none;
+    }
+      
+    header li {
+      display: inline-block;
+      padding: 0px 5px;
+    }
+    header p {
+      display: inline-block;
+    }
+
+/* Introduction */
+.Welcome {
+  max-width: 500px;
+  margin: 15px 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  text-align: left;
+
+}
+
+.content h1{
+  color:#5A697E;
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 66px;
+}
+
+/* My UX Skills Section */
+.heading {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 66px;
+  text-align: center;
+  color: white;
+  width: 1440px;
+  height: 100px;
+  background: #AEB8C2;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+
+}
+  .flexContainer {
+    display: flex;
+    padding: 60px;
+    width: 1440px;
+    height: 400px;
+    left: 0px;
+    top: 710px;
+    background: #AEB8C2;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .flexContainer div {
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 6px #5A697E;
+  }
+
+  .flexContainer h3 {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 45px;
+    color: #5A697E;
+  }
+  .flexContainer P{
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #999999; 
+  }
+
+/* My Work Section */
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color:white;
+  font-family: Red Hat Display;
+  font-style: normal;
+  text-align: left;
+  color:#5A697E;
+  }
+.myWork h1{
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 66px;
+  text-align: center;
+  color:#5A697E;
+  margin:25px;
+}
+.myWork h4{
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 66px;
+  text-align: left;
+  color:#5A697E;
+}
+.myWork p{
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-size: 18px;
+  text-align: left;
+  color:#5A697E;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px;
+  grid-template-areas:
+  "img1 img2"
+  "content1 content2"
+  ;
+}
+.workGrid img {
+  width: 450px;
+  height: 325px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+
+
+}
+.img1, .img2, .img3, .img, .content1, .content2, .content3, .content, button {
+  padding: 80px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
+
+
+
+/* About Kaitlin */
+
+.welcomeC h1{
+  color:#5A697E;
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 66px;
+}
+
+
+button {
+  padding: 15px;
+  margin: auto;
+  background-color: #5A697E;
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  border-radius: 4px;
+}
+  /* Footer CSS */
+  footer {
+    background-color: white;
+    padding: 15px;
+  }
+
+  footer ul {
+    float: left;
+    color: #5A697E;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 33px;
+    }
+
+  footer li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  footer p {
+    display: inline-block;
+
+  
+  } 
+
+  .heroImg {
+      padding-top: 0;
+      font-family: Red Hat Display;
+      font-style: normal;
+      text-align: center;
+      color:White;
+     
+      background-color: #5A697E;
+      padding: 50px 30px;
+      display: grid;
+      grid-template-columns: 25% 25%;
+      grid-template-rows: 350px;
+      grid-template-areas:
+      "content img"
+  }
+  
+  .content {
+    grid-area: content;
+  }
+  .content img {
+    grid-area: img;
+    max-height: 200px;
+    margin: 15px;
+    display: block;
+  }
+  .img button{
+    background-color: white;
+    color:#5A697E;
+  }
